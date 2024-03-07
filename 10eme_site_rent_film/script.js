@@ -21,10 +21,7 @@
                     console.log(data)
                     data.Search.forEach(movie => {
                         const li = document.createElement('li')
-                        const img = document.createElement('img')
-                        img.src = movie.Poster
-                        li.appendChild(img)
-                        li.textContent = movie.Title
+                        li.innerHTML = `<p>${movie.Title}</p> <img src="${movie.Poster}>`
                         list.appendChild(li)
                     })
                 })
