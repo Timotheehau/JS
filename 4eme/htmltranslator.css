@@ -1,0 +1,90 @@
+body {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: linear-gradient(240deg, darkred,orange );
+    height: 100vh;
+    color: white;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1100px;
+}
+
+p {
+    margin: 2px 0px 2px 0px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.card {
+    width: 180px;
+    height: 180px;
+    background-color: none;
+    border: solid 1px darksalmon;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    border-radius: 100px;
+    background-color: grey;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 12px;
+}
+
+.right {
+    display: none;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.editor {
+    text-align: center;
+    margin-top: 60px;
+}
+
+textarea {
+    padding: 1rem;
+    width: 400px;
+    height: 280px;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.submit {
+    margin: 1rem auto 0rem auto;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    background-color: green;
+    color: white;
+    width: 9rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

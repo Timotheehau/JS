@@ -1,0 +1,19 @@
+
+.persos {
+    display: grid;
+    grid-template-columns: repeat(2, 190px);
+
+}
+.container {
+    text-align: center;
+    width: 10rem;
+    padding: 6px;
+    border: solid 1px gray;
+    margin: 1rem;
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    border: none;
+}
