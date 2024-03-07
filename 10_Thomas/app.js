@@ -60,5 +60,18 @@ function displayMovies(movies) {
         const query = searchInput.value;
         searchMovie(query);
     });
+
+    window.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') {
+            search()
+        }
+    });
+
+    function search() {
+        const query = searchInput.value;
+        searchMovie(query);
+    }
+
+
  
 });
