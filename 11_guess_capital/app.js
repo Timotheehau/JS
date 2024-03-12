@@ -60,7 +60,8 @@ input.addEventListener('keypress', (e) => {
             input.value = '';
             button.click();
         } else {
-            input.value = ''
+            input.value = answer
+            
             
         }
     }
