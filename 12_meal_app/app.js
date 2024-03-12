@@ -61,6 +61,17 @@ console.log(url)
         })
     })     
     
+    
+    // Pouvoir afficher les recettes dans une bande déroulante de l'input de recherche
+    search.addEventListener('input', (e) => {
+        const query = e.target.value
+        searchMeal(query)
+    })
+
+
+
+
+
 
 
 
